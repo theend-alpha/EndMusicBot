@@ -1,4 +1,4 @@
-from . import End, filters, MyHeartYashvi, BOT_USERNAME
+from . import *
 
 @End.on_message(filters.command(["play", f"play@{BOT_USERNAME}"]) & filters.group & ~filters.bot & ~filters.edited & ~filters.forwarded)
 async def play_func(_, m: MyHeartYashvi):
