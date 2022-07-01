@@ -4,6 +4,8 @@ from Config import *
 from helpers import *
 from PIL import Image, ImageDraw, ImageFont
 
+YashuAlpha = End(STRING_SESSION, API_ID, API_HASH)
+
 def ytsearch(query: str):
     try:
         search = VideosSearch(query, limit=1).result()
