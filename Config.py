@@ -10,4 +10,8 @@ MONGO_URL = os.environ.get('MONGO_DB_URL')
 
 BOT_USERNAME = os.environ.get('BOT_USERNAME')
 
+BOT_ID = int(os.environ.get('BOT_ID'))
+
+SUPPORT_GROUP = os.environ.get('SUPPORT_GROUP')
+
 
