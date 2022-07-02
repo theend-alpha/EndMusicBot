@@ -43,7 +43,7 @@ async def play_func(_, m: MyHeartYashvi):
                     await fallen.edit(
                         f"<b>» Music player assistant not in this chat, Try: /join")
     try:
-        await USER.get_chat(chid)
+        await YashuAlpha.get_chat(chid)
     except Exception as e:
         await fallen.edit(
             f"<i>» Failed to join !</i>\n\Cause : {e}")
