@@ -15,7 +15,7 @@ async def play_func(_, m: MyHeartYashvi):
     chid = message.chat.id
 
     try:
-        user = await USER.get_me()
+        user = await YashuAlpha.get_me()
     except:
         user.first_name = "Anonymous"
     usar = user
